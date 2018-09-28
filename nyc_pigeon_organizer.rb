@@ -5,8 +5,7 @@ def nyc_pigeon_organizer(data)
    data.each do |feature, values|
      values.each do |value, pigeons|
        pigeons.each do |pigeon|
-         holder_object[pigeon] ||= {}
-         holder_object[pigeon][feature] ||= []
+       
      
        end
      end
